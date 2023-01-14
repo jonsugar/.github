@@ -5,10 +5,14 @@ labels: [Feature, Needs Triage]
 assignees:
   - jonsugar
 body:
+- type: markdown
+  attributes:
+    value: |
+      **Is there an existing feature request for this?**
+      Please search to see if a feature request already exists for your idea.
 - type: checkboxes
   attributes:
     label: Is there an existing feature request for this?
-    description: Please search to see if a feature request already exists for your idea.
     options:
     - label: I have searched the existing issues
       required: true
